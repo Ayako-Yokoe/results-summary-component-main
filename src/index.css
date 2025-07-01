@@ -1,0 +1,78 @@
+:root {
+
+  --color-light-red: 0, 100%, 67%;
+  --color-orangey-yellow: 39, 100%, 56%;
+  --color-green-teal: 166, 100%, 37%;
+  --color-cobalt-blue: 234, 85%, 45%;
+
+  /* background */
+  --color-light-slate-blue:252, 100%, 67%; 
+  --color-light-royal-blue:241, 81%, 54%;
+  /* circle */
+  --color-violet-blue: 256, 72%, 46%, 1;
+  --color-persian-blue: 241, 72%, 46%, 0;
+
+  --color-white:  0, 0%, 100%;
+  --color-pale-blue: 221, 100%, 96%;
+  --color-light-lavender:  241, 100%, 89%;
+  --color-dark-gray-blue:  224, 30%, 27%;
+}
+
+@font-face {
+	font-family: "HankenGrotesk";
+	src: url("assets/fonts/static/HankenGrotesk-Medium.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "HankenGrotesk";
+	src: url("assets/fonts/static/HankenGrotesk-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "HankenGrotesk";
+	src: url("assets/fonts/static/HankenGrotesk-ExtraBold.ttf") format("truetype");
+	font-weight: 800;
+	font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "HankenGrotesk";
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font: inherit;
+  outline: none;
+  cursor: pointer;
+}
+
+p {
+  font-size: 18px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+

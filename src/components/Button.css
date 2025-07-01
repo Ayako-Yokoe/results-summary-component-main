@@ -1,0 +1,20 @@
+.button-container {
+  margin: 0 1.5rem 2rem 1.5rem;
+}
+
+.button {
+  width: 100%;
+  background-color: hsl( var(--color-dark-gray-blue) );
+  color: hsl( var(--color-white) );
+  padding: 1rem;
+  border-radius: 40px;
+  box-shadow: 0 10px 10px hsl( var(--color-pale-blue) );
+  outline: none;
+  border: none;
+  transition: background-color .3s ease-in;
+}
+
+.button:hover,
+.button:focus {
+  background-color: hsl(var(--color-light-royal-blue) );
+}
