@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="" alt="375px mobile" width="300" height="auto">
-<img src="" alt="1440px desktop" width="700" height="auto">
+<img src="./public/assets/images/375px.png" alt="375px mobile" width="300" height="auto">
+<img src="./public/assets/images/1440px.png" alt="1440px desktop" width="700" height="auto">
 
 
 ### Links
